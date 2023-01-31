@@ -39,9 +39,22 @@ main().catch(error => {
   process.exitCode = 1
 })
 
+walletContract.on("LogRequirementAmountEV", (min, max)  => {
+  console.log("EV LogRequirementAmountEV")
+  console.log("min:", min)
+  console.log("max:", max)
+})
+
+/*
 walletContract.on("LogLayerEV", (started, success, failure) => {
   console.log("EVENT: LogLayerEV")
   console.log("started:", started)
   console.log("success:", success)
   console.log("failure:", failure)
+})
+*/
+
+walletContract.on("LogLength", arrLength => {
+  console.log("EV LogLength")
+  console.log("length:", arrLength)
 })

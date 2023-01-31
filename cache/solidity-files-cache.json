@@ -251,6 +251,113 @@
       "artifacts": [
         "IWallet"
       ]
+    },
+    "/home/cabox/workspace/007/contracts/Layer.sol": {
+      "lastModificationDate": 1675110193873,
+      "contentHash": "c84f17c630461c458c0e8035329de8b8",
+      "sourceName": "contracts/Layer.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.7"
+      ],
+      "artifacts": [
+        "Layer"
+      ]
+    },
+    "/home/cabox/workspace/007/contracts/Wallet.sol": {
+      "lastModificationDate": 1675175868160,
+      "contentHash": "2b86118210c1f472c59ee27d5e8db16e",
+      "sourceName": "contracts/Wallet.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Layer.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.7"
+      ],
+      "artifacts": [
+        "Wallet"
+      ]
+    },
+    "/home/cabox/workspace/007/contracts/interfaces/IWallet.sol": {
+      "lastModificationDate": 1675106777864,
+      "contentHash": "897493918b6e145d521c3474aa32d69f",
+      "sourceName": "contracts/interfaces/IWallet.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.7"
+      ],
+      "artifacts": [
+        "IWallet"
+      ]
     }
   }
 }
